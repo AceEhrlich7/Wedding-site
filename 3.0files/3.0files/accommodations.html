@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotels — Elise & Ace</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #fff;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-variant: small-caps;
+    color: #1a2a4a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 24px 72px;
+    letter-spacing: 0.08em;
+    text-align: center;
+  }
+  nav {
+    position: fixed;
+    top: 36px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: #fff;
+    z-index: 100;
+  }
+  nav a {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-variant: small-caps;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    color: #1a2a4a;
+    text-decoration: none;
+    padding: 0 24px;
+  }
+  nav a:hover { text-decoration: underline; }
+  .blurb {
+    max-width: 480px;
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #1a2a4a;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .hotels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .hotel a {
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    color: #1a2a4a;
+    text-decoration: none;
+  }
+  .hotel a:hover { text-decoration: underline; }
+  .hotel p {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    color: #1a2a4a;
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Welcome</a>
+    <a href="accommodations.html">Hotels</a>
+    <a href="information.html">Information</a>
+    <a href="registry.html">Registry</a>
+  </nav>
+  <p class="blurb">There are many wonderful hotels near the Union League Club.<br>The following are offered as a starting point in your search.</p>
+  <div class="hotels">
+    <div class="hotel">
+      <a href="https://www.marriott.com/en-us/hotels/chixr-the-st-regis-chicago/photos/" target="_blank">The St. Regis</a>
+      <p>401 East Wacker Drive</p>
+    </div>
+    <div class="hotel">
+      <a href="https://www.chicagoathletichotel.com/" target="_blank">Chicago Athletic Association Hotel</a>
+      <p>12 South Michigan Avenue</p>
+    </div>
+    <div class="hotel">
+      <a href="https://www.marriott.com/en-us/hotels/chidt-chicago-marriott-downtown-magnificent-mile/overview/" target="_blank">Marriott Downtown Magnificent Mile</a>
+      <p>540 North Michigan Avenue</p>
+    </div>
+  </div>
+</body>
+</html>
